@@ -1,9 +1,22 @@
+from datetime import datetime
+
+
 from django.shortcuts import render
+
+from pages.models import Testimonial
 
 
 # Create your views here.
 def home(request):
-    return render(request, 'pages/home.html')
+    testimonials = Testimonial.objects.all()
+
+    myDate = datetime.now()
+    data = {
+        'testimonials': testimonials,
+        'myDate': myDate
+
+    }
+    return render(request, 'pages/home.html', data)
 
 
 def about(request):

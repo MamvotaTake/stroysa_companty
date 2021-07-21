@@ -48,7 +48,7 @@ ul {
 }
 
 .btn{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 /** Social media color **/
@@ -239,7 +239,7 @@ ul {
     transition: .5s;
     border-radius: 2px;
     border: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .btn-md:hover {
@@ -640,7 +640,7 @@ input[type=checkbox]:checked + label:before {
 
 /** Top header start **/
 .top-header{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     display: inline-block;
     width: 100%;
 }
@@ -770,7 +770,7 @@ input[type=checkbox]:checked + label:before {
     opacity: 1;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     text-transform: uppercase;
 }
 
@@ -849,7 +849,7 @@ input[type=checkbox]:checked + label:before {
     transition: all .3s ease-in-out;
     text-transform: none;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 15px;
 }
 
@@ -1492,7 +1492,7 @@ input[type=checkbox]:checked + label:before {
 .filteriz-navigation li{
     font-size: 13px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     border: solid 1px transparent;
     padding: 5px 20px!important;
     text-transform: uppercase;
@@ -1944,7 +1944,7 @@ input[type=checkbox]:checked + label:before {
     font-size: 33px;
     font-weight: 700;
     margin-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     z-index: 20;
 }
 
@@ -1977,7 +1977,7 @@ input[type=checkbox]:checked + label:before {
     position: relative;
     text-align: center;
     margin: 0 0 15px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .category:hover:before {
@@ -2158,7 +2158,7 @@ input[type=checkbox]:checked + label:before {
 .carbox-overlap-wrapper h2 {
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     line-height: 18px;
     text-transform: uppercase;
     margin: 0;
@@ -2168,7 +2168,7 @@ input[type=checkbox]:checked + label:before {
 .carbox-overlap-wrapper h4 {
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     line-height: 26px;
     color: #fff;
 }
@@ -2589,7 +2589,7 @@ input[type=checkbox]:checked + label:before {
     bottom: 30px;
     font-weight: 600;
     opacity: 1;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .car-model-2 img{
@@ -2608,7 +2608,7 @@ input[type=checkbox]:checked + label:before {
     z-index: 20;
     font-weight: 600;
     opacity: 0.9;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .price-box span{
@@ -2648,7 +2648,7 @@ input[type=checkbox]:checked + label:before {
 .price-box-3 {
     font-size: 40px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .price-box-3 sup {
@@ -2682,7 +2682,7 @@ input[type=checkbox]:checked + label:before {
     padding: 7px 14px 5px;
     font-weight: 500;
     border-radius: 3px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .tag-2 {
@@ -2913,7 +2913,7 @@ input[type=checkbox]:checked + label:before {
     display: inline-block;
     padding-right: 5px;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     font-weight: 600;
 }
 
@@ -2952,7 +2952,7 @@ input[type=checkbox]:checked + label:before {
     padding: 5px 14px 3px;
     font-weight: 600;
     border-radius: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     text-transform: uppercase;
     color: #f9f9f9;
     background: rgba(0, 0, 0, 0.36);
@@ -3529,7 +3529,7 @@ input[type=checkbox]:checked + label:before {
     border-bottom-right-radius: 3px;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     cursor: pointer;
     color: #fff;
 }
@@ -3814,7 +3814,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .table-bordered {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     font-weight: 500;
     color: #535353;
     font-size: 15px;
@@ -5034,7 +5034,7 @@ footer {
     text-align: center;
     font-size: 15px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .ca .team-2 .detail {
@@ -5167,7 +5167,7 @@ footer {
     margin-bottom: 8px;
     font-size: 14px;
     color: #535353;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .financing-calculator .form-group {
@@ -5387,7 +5387,7 @@ footer {
     margin-bottom: 20px;
     display: block;
     line-height: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     color: #383737!important;
 }
 
@@ -5892,7 +5892,7 @@ footer {
 .range-slider {
     margin-top: 15px;
     margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .range-slider .ui-slider {
@@ -6069,14 +6069,14 @@ footer {
 
 /** Sub Banner start **/
 .sub-banner {
-    background: rgba(0, 0, 0, 0.04) url(../img/house_4.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/house/house_4.jpg) top left repeat;
     background-size: cover;
     height: 360px;
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .sub-banner .breadcrumb-area {
@@ -6105,7 +6105,7 @@ footer {
     list-style: none;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     margin: 0;
 }
 
@@ -6128,7 +6128,7 @@ footer {
 
 .blog-social-list {
     float: right;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .blog-social-list a {
@@ -6172,7 +6172,7 @@ footer {
     margin-right: 10px;
     font-weight: 600;
     color: #4d4d4d;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 /** Details banner start **/
@@ -6183,7 +6183,7 @@ footer {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .details-banner .text h1 {
@@ -6197,7 +6197,7 @@ footer {
     font-size: 15px;
     color: #fff;
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .details-banner .text .ratings-box {
@@ -6930,7 +6930,7 @@ footer {
     z-index: 20;
     font-weight: 600;
     opacity: 0.9;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 /** Cart total box start **/
@@ -6976,7 +6976,7 @@ footer {
 .payment-box .form-check-label {
     font-size: 15px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     margin-bottom: 5px;
     color: #212121;
 }
@@ -7073,7 +7073,7 @@ table {
 
 .shop-table.cart .t-600{
     font-weight: 400;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 .shop-table.cart .product-remove {
