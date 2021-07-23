@@ -10,7 +10,7 @@ class HouseAdmin(admin.ModelAdmin):
         return format_html('<img src="{}" width="40" style="border-radius:30%;">'.format(object.house_photo.url))
 
     thumbnail.short_description = 'House Photo'
-    list_display = ('thumbnail', 'house_title', 'size', 'created_date', 'is_finished',)
+    list_display = ('thumbnail', 'house_title', 'size', 'created_date', 'is_finished', 'is_not_finished',)
     list_display_links = ('thumbnail', 'house_title',)
 
 

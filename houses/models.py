@@ -35,6 +35,7 @@ class House(models.Model):
     house_photo_4 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     house_photo_5 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
     is_finished = models.BooleanField(default=False)
+    is_not_finished = models.BooleanField(default=False)
     created_date = models.DateTimeField(default=datetime.now, blank=True)
 
     def __str__(self):

@@ -85,7 +85,7 @@
                 <div class="slick-slide-item">
                     <div class="car-box-3">
                         <div class="car-thumbnail">
-                            <a href="car-details.html" class="car-img">
+                            <a href="{% url 'house_detail' house.id %}" class="car-img">
                                 <div class="tag-2 text-white">готовой</div>
                                 <img class="d-block w-100" src="{{house.house_photo.url}}"
                                      style="min-height:262px; max-height:262px;" alt="car">
@@ -127,7 +127,7 @@
                         </div>
                         <div class="detail">
                             <h1 class="title">
-                                <a href="car-details.html">{{house.house_title}}</a>
+                                <a href="{% url 'house_detail' house.id %}">{{house.house_title}}</a>
                             </h1>
                             <ul class="facilities-list clearfix">
                                 <li>пос.{{house.Novaya_settlement}}</li>
@@ -164,7 +164,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="car-box">
                     <div class="car-thumbnail">
-                        <a href="car-details.html" class="car-img">
+                        <a href="{% url 'house_detail' house.id %}" class="car-img">
                             <div class="tag">РЕАЛИЗУЕМЫЕ</div>
                             <img class="d-block w-100" src="{{house.house_photo.url}}"
                                  style="min-height:262px; max-height:262px;" alt="car">
@@ -209,7 +209,7 @@
                     </div>
                     <div class="detail">
                         <h1 class="title">
-                            <a href="car-details.html">{{house.house_title}}</a>
+                            <a href="{% url 'house_detail' house.id %}">{{house.house_title}}</a>
                         </h1>
                         <!--                            <div class="location">-->
                         <!--                                <a href="car-details.html">-->
@@ -278,11 +278,7 @@
                                 <img src="{{testimony.photo.url}}" alt="team-1"
                                      style="max-height:262px; min-height:262px" class="img-fluid">
                             </a>
-                            <!--                                <div class="social-list clearfix">-->
-                            <!--                                    <a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a>-->
-                            <!--                                    <a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a>-->
-                            <!--                                    <a href="#" class="google-bg"><i class="fa fa-google"></i></a>-->
-                            <!--                                </div>-->
+
                         </div>
 
                         <div class="details">
