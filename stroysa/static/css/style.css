@@ -4457,6 +4457,11 @@ footer {
     background-size: cover;
     width: 100%;
     padding: 100px 0 70px;
+    margin-bottom:20px;
+}
+
+.featured-car.content-area button {
+    padding:12px;
 }
 
 .service-box ul{

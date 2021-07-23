@@ -1,0 +1,124 @@
+{%extends 'base.html'%}
+
+{% block content %}
+<!-- Sub banner start -->
+<div class="sub-banner overview-bgi">
+    <div class="container breadcrumb-area">
+        <div class="breadcrumb-areas">
+            <h1>Наш дом Инвентарь</h1>
+            <ul class="breadcrumbs">
+                <li><a href="{%url 'home'%}">Главное</a></li>
+                <li class="active">Домов</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- Sub Banner end -->
+
+<!-- Featured car start -->
+<div class="featured-car content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                    <div class="row">
+                        {%for house in houses%}
+                            <div class="col-lg-6 col-md-6">
+                                <div class="car-box-3">
+                                    <div class="car-thumbnail">
+                                        <a href="car-details.html" class="car-img">
+                                            <img class="d-block w-100" src="{{house.house_photo.url}}" alt="car">
+                                        </a>
+                                        <div class="carbox-overlap-wrapper">
+                                            <div class="overlap-box">
+                                                <div class="overlap-btns-area">
+                                                    <div class="car-magnify-gallery">
+                                                        {%if house.house_photo_1%}
+                                                        <a href="{{house.house_photo_1.url}}" class="overlap-btn">
+                                                            <i class="fa fa-expand"></i>
+                                                            <img class="hidden" src="{{house.house_photo_1.url}}">
+                                                        </a>
+                                                        {%endif%}
+                                                        {%if house.house_photo_2%}
+                                                        <a href="{{house.house_photo_2.url}}" class="hidden">
+                                                            <img class="hidden" src="{{house.house_photo_2.url}}">
+                                                        </a>
+                                                        {%endif%}
+                                                        {%if house.house_photo_3%}
+                                                        <a href="{{house.house_photo_3.url}}" class="hidden">
+                                                            <img class="hidden" src="{{house.house_photo_3.url}}">
+                                                        </a>
+                                                        {%endif%}
+                                                        {%if house.house_photo_4%}
+                                                        <a href="{{house.house_photo_4.url}}" class="hidden">
+                                                            <img class="hidden" src="{{house.house_photo_4.url}}">
+                                                        </a>
+                                                        {%endif%}
+                                                        {%if house.house_photo_5%}
+                                                        <a href="{{house.house_photo_5.url}}" class="hidden">
+                                                            <img class="hidden" src="{{house.house_photo_5.url}}">
+                                                        </a>
+                                                        {%endif%}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h1 class="title">
+                                            <a href="car-details.html">{{house.house_title}}</a>
+                                        </h1>
+                                        <ul class="facilities-list clearfix">
+                                            <li>пос.{{house.Novaya_settlement}}</li>
+                                            <li>Площадь :{{house.square_metres}}м²</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        {%endfor%}
+                    </div>
+                <!-- Page navigation start -->
+                <div class="pagination-box p-box-2 text-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#"><i class="fa fa-angle-left"></i></a>
+                            </li>
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#"><i class="fa fa-angle-right"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="sidebar-right">
+                    <!-- Advanced search start -->
+                    <div class="widget advanced-search2">
+                        <h3 class="sidebar-title text-center">НАШИ РАБОТЫ</h3>
+
+                    </div>
+
+                    <!-- Question start -->
+                    <div class="widget question widget-3">
+                        <h5 class="sidebar-title">Follow us</h5>
+                        <div class="social-list clearfix">
+                            <ul>
+                                <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#" class="rss-bg"><i class="fa fa-rss"></i></a></li>
+                                <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured car end -->
+
+{%endblock%}

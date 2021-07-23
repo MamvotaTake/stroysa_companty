@@ -6,35 +6,68 @@
             <a class="navbar-brand company-logo" href="index.html">
                 <img src="img/logos/black-logo.png" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="navbar-collapse collapse w-100" id="navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link dropdown-toggle" href="{%url 'home'%}" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ГЛАВНОЕ
+                        <a
+                                {%if '/' == request.path %}
+                        class="nav-link active "
+                        {%else%}
+                        class="nav-link"
+                        {%endif%}
+                        href="{%url 'home'%}">
+                        ГЛАВНОЕ
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cars.html">
-                            НАШИ ПРОЕКТЫ
+                        <a
+                                {%if 'houses' in request.path %}
+                        class="nav-link active"
+                        {%else%}
+                        class="nav-link"
+                        {%endif%}
+                        href="{%url 'houses'%}">
+                        НАШИ ПРОЕКТЫ
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{%url 'about'%}">
-                            О КОМПАНИИ
+                        <a
+                                {%if 'about' in request.path %}
+                        class="nav-link active"
+                        {%else%}
+                        class="nav-link"
+                        {%endif%}
+                        href="{%url 'about'%}">
+                        О КОМПАНИИ
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{%url 'services'%}">
-                            SERVICES
+                        <a
+                                {%if 'services' in request.path %}
+                        class="nav-link active"
+                        {%else%}
+                        class="nav-link"
+                        {%endif%}
+                        href="{%url 'services'%}">
+                        SERVICES
                         </a>
                     </li>
 
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="{%url 'contacts'%}">КОНТАКТЫ</a>
+                        <a
+                                {%if 'contacts' in request.path %}
+                        class="nav-link active"
+                        {%else%}
+                        class="nav-link"
+                        {%endif%}
+                        href="{%url 'contacts'%}">
+                        КОНТАКТЫ
+                        </a>
                     </li>
 
                 </ul>
